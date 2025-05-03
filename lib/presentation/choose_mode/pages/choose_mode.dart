@@ -7,6 +7,7 @@ import 'package:vroz/common/widget/buttons/basic_app_button.dart';
 import 'package:vroz/core/configs/assets/app_images.dart';
 import 'package:vroz/core/configs/assets/app_vectors.dart';
 import 'package:vroz/core/configs/theme/app_colors.dart';
+import 'package:vroz/presentation/auth/pages/login.dart';
 import 'package:vroz/presentation/choose_mode/bloc/theme_cubit.dart';
 
 class ChooseMode extends StatelessWidget {
@@ -74,7 +75,7 @@ class ChooseMode extends StatelessWidget {
                           style: TextStyle(
                             fontWeight: FontWeight.w500,
                             fontSize: 17,
-                            color: AppColors.grey,
+                            color: Colors.white,
                           ),
                         ),
                       ],
@@ -112,7 +113,7 @@ class ChooseMode extends StatelessWidget {
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
                             fontSize: 17,
-                            color: AppColors.grey
+                            color: Colors.white
                           ),
                         )
                       ],
@@ -125,7 +126,7 @@ class ChooseMode extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (BuildContext) => const ChooseMode(),
+                        builder: (BuildContext) => const Login(),
                       ),
                     );
                   },
