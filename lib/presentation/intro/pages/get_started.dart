@@ -35,7 +35,7 @@ class GetStarted extends StatelessWidget {
                 ),
                 Spacer(),
                 Text(
-                  'Enjoy Listening To Music',
+                  'Enjoy Listening To Musics',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     color: Colors.white,
